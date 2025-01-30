@@ -1,3 +1,4 @@
+@import "tailwindcss";
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,107 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* styles.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #718096;
+  margin-bottom: 24px;
+}
+
+.file-upload-label {
+  display: block;
+  background-color: #4299e1;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 16px;
+}
+
+.file-upload-label:hover {
+  background-color: #3182ce;
+}
+
+.export-button {
+  display: block;
+  width: 100%;
+  background-color: #48bb78;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.export-button:disabled {
+  background-color: #cbd5e0;
+  cursor: not-allowed;
+}
+
+.export-button:hover:not(:disabled) {
+  background-color: #38a169;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #e2e8f0;
+  border-radius: 4px;
+  margin-top: 16px;
+  overflow: hidden;
+}
+
+.progress-bar-inner {
+  height: 100%;
+  background-color: #4299e1;
+  width: 50%; /* Simulate progress */
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.record-count {
+  font-size: 12px;
+  color: #718096;
+  margin-top: 16px;
+}
+.hidden{
+  opacity:0
+}
+.ExportFileName {
+  margin: 5px;
+  border: 1px solid gray;
+  width: 99%;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
 }
