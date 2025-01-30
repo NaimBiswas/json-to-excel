@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/json-to-excel/static/css/main.6b28bdf6.css",
+    "main.js": "/json-to-excel/static/js/main.5c9fa6e4.js",
+    "static/js/488.bd5db982.chunk.js": "/json-to-excel/static/js/488.bd5db982.chunk.js",
+    "index.html": "/json-to-excel/index.html",
+    "main.6b28bdf6.css.map": "/json-to-excel/static/css/main.6b28bdf6.css.map",
+    "main.5c9fa6e4.js.map": "/json-to-excel/static/js/main.5c9fa6e4.js.map",
+    "488.bd5db982.chunk.js.map": "/json-to-excel/static/js/488.bd5db982.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b28bdf6.css",
+    "static/js/main.5c9fa6e4.js"
+  ]
+}
